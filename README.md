@@ -1,6 +1,6 @@
 # Synthesis Map
 
-My [Synthesis Map](https://aekari.github.io/Synthesis-Map/) is a brainstorming tool for grad school on the topic of Black Women and Girls in the Cottagecore subculture/aesthetic.
+My [Synthesis Map](https://aekari.github.io/Synthesis-Map/) is a brainstorming tool created for a class project on the topic of Black Women and Girls within the Cottagecore subculture/aesthetic.
 
 ![](https://i.imgur.com/5OeiIZd.gif)
 
