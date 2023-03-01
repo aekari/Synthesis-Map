@@ -2,6 +2,8 @@
 
 My [Synthesis Map](https://aekari.github.io/Synthesis-Map/) is a project for grad school on the topic of Black Women and Girls in the Cottagecore subculture/aesthetic.
 
+![](https://i.imgur.com/9iBmZ4i.mp4)
+
 ## Resources
 
 In order to code this map, found these resources helpful:
