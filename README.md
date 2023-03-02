@@ -1,6 +1,6 @@
 # Synthesis Map
 
-My [Synthesis Map](https://aekari.github.io/Synthesis-Map/) is a brainstorming tool created for a class project on the topic of Black Women and Girls within the Cottagecore subculture/aesthetic.
+The[Synthesis Map](https://aekari.github.io/Synthesis-Map/) is a brainstorming tool created for a class project on the topic of Black Women and Girls within the Cottagecore subculture/aesthetic. The idea of a synthesis map was first taught to me by Professor Mark Addison Smith (City College of New York).
 
 ![](https://i.imgur.com/5OeiIZd.gif)
 
