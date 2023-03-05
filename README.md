@@ -1,26 +1,20 @@
 # Synthesis Map
 
-The [Synthesis Map](https://aekari.github.io/Synthesis-Map/) is a brainstorming tool created for a class project on the topic of Black Women and Girls within the Cottagecore subculture/aesthetic. The concept of a synthesis map was first taught to me by Professor Mark Addison Smith (City College of New York) and I adapted it for the web, specifically for this project.
+The [Synthesis Map](https://aekari.github.io/Synthesis-Map/) is a brainstorming tool created for a class project on the topic of Black Women and Girls within the Cottagecore subculture/aesthetic.
 
-![](https://i.imgur.com/5OeiIZd.gif)
+## Technologies Used
 
-## Resources
+* ![](https://img.shields.io/badge/-HTML-black.svg?style=flat-square&logo=html5&colorB=000)
+* ![](https://img.shields.io/badge/-CSS-black.svg?style=flat-square&logo=css3&colorB=000)
+* ![](https://img.shields.io/badge/-JS-black.svg?style=flat-square&logo=JavaScript&colorB=000)
 
-In order to code this map, found these resources helpful:
+## Description
 
-[W3 Schools](https://www.w3schools.com)
+Synthesis Map is a brainstorming tool to help generate creative ideas. The concept of a synthesis map was first taught to me by Professor Mark Addison Smith of City College of New York and I adapted it for the web, specifically for this project.
 
-[Stack Overflow](https://stackoverflow.com)
-
-[Gradient Animator](https://www.gradient-animator.com/)
-
-[Mozilla's Color Picker Tool](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool)
-
-[Ian Lunn's Hover effects library](https://ianlunn.github.io/Hover/)
-
-[Css Tricks](https://css-tricks.com/having-fun-with-link-hover-effects/)
-
-[www.flaticon.com](https://www.flaticon.com/authors/becris)
+<img src="https://i.imgur.com/5OeiIZd.gif">
 
 ## License
 [No License -- no permission granted to reuse](https://choosealicense.com/no-permission/)
+
+Copyright © [Ashleigh Ekari](https://www.ashleighekari.com)
