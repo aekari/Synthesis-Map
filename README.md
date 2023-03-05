@@ -11,7 +11,7 @@ A brainstorming tool created for a class project on the topic of Black Women and
 
 ## Description
 
-[Synthesis Map](https://aekari.github.io/Synthesis-Map/) is a brainstorming tool to help generate creative ideas. The concept of a synthesis map was first taught to me by Professor Mark Addison Smith of City College of New York and I adapted it for the web, specifically for this project.
+[Synthesis Map](https://aekari.github.io/Synthesis-Map/) is a brainstorming tool to help generate creative ideas. The concept of a synthesis map was first introduced to me by Professor Mark Addison Smith of City College of New York and I adapted it for the web, specifically for this project.
 
 <img src="https://i.imgur.com/5OeiIZd.gif">
 
