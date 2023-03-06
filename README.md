@@ -15,6 +15,13 @@ A brainstorming tool created for a class project on the topic of Black Women and
 
 <img src="https://i.imgur.com/5OeiIZd.gif">
 
+## Known Bugs
+
+1. It's not mobile friendly. At this point in time, it is best for desktop settings but I would like for it to be mobile-friendly and responsive.
+2. The images are small without an option to view them larger, besides zooming in.
+
+In future updates, these issues will be fixed.
+
 ## License
 [No License -- no permission granted to reuse](https://choosealicense.com/no-permission/)
 
