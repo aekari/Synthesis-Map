@@ -4,9 +4,9 @@ A brainstorming tool created for a class project on the topic of Black Women and
 
 ## Technologies Used
 
-* ![](https://img.shields.io/badge/-HTML-black.svg?style=flat-square&logo=html5&colorB=000)
-* ![](https://img.shields.io/badge/-CSS-black.svg?style=flat-square&logo=css3&colorB=000)
-* ![](https://img.shields.io/badge/-JAVASCRIPT-black.svg?style=flat-square&logo=JavaScript&colorB=000)
+![](https://img.shields.io/badge/-HTML-black.svg?style=flat-square&logo=html5&colorB=000)
+![](https://img.shields.io/badge/-CSS-black.svg?style=flat-square&logo=css3&colorB=000)
+![](https://img.shields.io/badge/-JAVASCRIPT-black.svg?style=flat-square&logo=JavaScript&colorB=000)
 
 ## Description
 
