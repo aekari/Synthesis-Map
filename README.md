@@ -18,7 +18,7 @@ A brainstorming tool created for a class project on the topic of black women and
 
 1. The Map is best used on a desktop and is not responsive/mobile friendly.
 2. The images are small without an option to view them larger besides zooming in.
-3. There's no way to easily update the photos w/out going into the code and doing it manually.
+3. There's no way to easily update the photos without going into the code and doing it manually.
 
 ## License
 [No License -- no permission granted to reuse](https://choosealicense.com/no-permission/)
