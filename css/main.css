@@ -1,418 +1,531 @@
                         /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
-                    /* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
-                    /*
+                        /* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+                        /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
-                    /* ==========================================================================
+                        /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-                    
-                    html {
-                        color: #222;
-                        font-size: 1em;
-                        line-height: 1.4;
-                    }
-                    
-                    .body {
-                        display: flex;
-                        justify-content: center;
-                        min-width: 1200px;
-                        margin: 0px;
-                        padding: 0px;
-                        font-family: 'Nanum Myeongjo', serif;
-                        /* The code related to the animated gradient background */
-                        background: linear-gradient(266deg, #e19973, #a86f54, #9a5c5f, #dc9e9f);
-                        background-size: 800% 800%;
-                        -webkit-animation: AnimationName 53s ease infinite;
-                        -moz-animation: AnimationName 53s ease infinite;
-                        animation: AnimationName 53s ease infinite;
-                    }
-                    
-                    @-webkit-keyframes AnimationName {
-                        0% {
-                            background-position: 0% 51%
+
+                        html {
+                            color: #222;
+                            font-size: 1em;
+                            line-height: 1.4;
                         }
-                        50% {
-                            background-position: 100% 50%
+
+                        .body {
+                            display: flex;
+                            justify-content: center;
+                            min-width: 1200px;
+                            margin: 0px;
+                            padding: 0px;
+                            font-family: 'Nanum Myeongjo', serif;
+                            /* The code related to the animated gradient background */
+                            background: linear-gradient(266deg, #e19973, #a86f54, #9a5c5f, #dc9e9f);
+                            background-size: 800% 800%;
+                            -webkit-animation: AnimationName 53s ease infinite;
+                            -moz-animation: AnimationName 53s ease infinite;
+                            animation: AnimationName 53s ease infinite;
                         }
-                        100% {
-                            background-position: 0% 51%
+
+                        @-webkit-keyframes AnimationName {
+                            0% {
+                                background-position: 0% 51%
+                            }
+
+                            50% {
+                                background-position: 100% 50%
+                            }
+
+                            100% {
+                                background-position: 0% 51%
+                            }
                         }
-                    }
-                    
-                    @-moz-keyframes AnimationName {
-                        0% {
-                            background-position: 0% 51%
+
+                        @-moz-keyframes AnimationName {
+                            0% {
+                                background-position: 0% 51%
+                            }
+
+                            50% {
+                                background-position: 100% 50%
+                            }
+
+                            100% {
+                                background-position: 0% 51%
+                            }
                         }
-                        50% {
-                            background-position: 100% 50%
+
+                        @keyframes AnimationName {
+                            0% {
+                                background-position: 0% 51%
+                            }
+
+                            50% {
+                                background-position: 100% 50%
+                            }
+
+                            100% {
+                                background-position: 0% 51%
+                            }
                         }
-                        100% {
-                            background-position: 0% 51%
+
+                        .boldStyling {
+                            font-weight: 800;
                         }
-                    }
-                    
-                    @keyframes AnimationName {
-                        0% {
-                            background-position: 0% 51%
+
+                        .instructions {
+                            max-width: 1080px;
+                            margin-top: 0px;
                         }
-                        50% {
-                            background-position: 100% 50%
+
+                        /* TILE BACKGROUNDS*/
+
+                        #tile_4_1 {
+                            background-image: url('../img/4_1.jpg');
+                            background-size: cover;
                         }
-                        100% {
-                            background-position: 0% 51%
+
+                        #tile_3_1 {
+                            background-image: url('../img/3_1.jpg');
+                            background-size: cover;
                         }
-                    }
-                    
-                    .boldOfYouToAsk {
-                        font-weight: 800;
-                    }
-                    
-                    .instructions {
-                        max-width: 1080px;
-                        margin-top: 0px;
-                    }
-                    /* TILE BACKGROUNDS*/
-                    
-                    #tile_4_1 {
-                        background-image: url('../img/4_1.jpg');
-                        background-size: cover;
-                    }
-                    
-                    #tile_3_1 {
-                        background-image: url('../img/3_1.jpg');
-                        background-size: cover;
-                    }
-                    
-                    #tile_2_1 {
-                        background-image: url('../img/2_1.jpg');
-                        background-size: cover;
-                    }
-                    
-                    #tile_1_1 {
-                        background-image: url('../img/1_1.png');
-                        background-size: cover;
-                    }
-                    
-                    #tile_5_2 {
-                        background-image: url('../img/5_2.jpg');
-                        background-size: cover;
-                    }
-                    
-                    #tile_5_1 {
-                        background-image: url('../img/5_1.png');
-                        background-size: cover;
-                    }
-                    
-                    #tile_5_3 {
-                        background-image: url('../img/5_3.jpg');
-                        background-size: cover;
-                    }
-                    
-                    #tile_5_4 {
-                        background-image: url('../img/5_4.jpg');
-                        background-size: cover;
-                    }
-                    
-                    #tile_5_5 {
-                        background-image: url('../img/5_5.jpg');
-                        background-size: cover;
-                    }
-                    
-                    #tile_4_2 {
-                        background-image: url('../img/4_2.png');
-                        background-size: cover;
-                    }
-                    
-                    #tile_1_2 {
-                        background-image: url('../img/1_2.png');
-                        background-size: cover;
-                    }
-                    
-                    #tile_1_3 {
-                        background-image: url('../img/1_3.jpg');
-                        background-size: cover;
-                    }
-                    
-                    #tile_1_4 {
-                        background-image: url('../img/1_4.png');
-                        background-size: cover;
-                    }
-                    
-                    #tile_4_3 {
-                        background-image: url('../img/4_3.png');
-                        background-size: cover;
-                    }
-                    
-                    #tile_2_2 {
-                        background-image: url('../img/2_2.png');
-                        background-size: cover;
-                    }
-                    
-                    #tile_2_3 {
-                        background-image: url('../img/2_3.png');
-                        background-size: cover;
-                    }
-                    
-                    #tile_2_4 {
-                        background-image: url('../img/2_4.jpg');
-                        background-size: cover;
-                    }
-                    
-                    #tile_4_5 {
-                        background-image: url('../img/4_5.jpeg');
-                        background-size: cover;
-                    }
-                    
-                    #tile_4_4 {
-                        background-image: url('../img/4_4.jpg');
-                        background-size: cover;
-                    }
-                    
-                    #tile_2_5 {
-                        background-image: url('../img/2_5.png');
-                        background-size: cover;
-                    }
-                    
-                    #tile_1_5 {
-                        background-image: url('../img/1_5.jpg');
-                        background-size: cover;
-                    }
-                    
-                    #tile_3_2 {
-                        background-image: url('../img/3.2.jpg');
-                        background-size: cover;
-                    }
-                    
-                    #tile_3_3 {
-                        background-image: url('../img/3_3.jpg');
-                        background-size: cover;
-                    }
-                    
-                    #tile_3_4 {
-                        background-image: url('../img/3_4.jpg');
-                        background-size: cover;
-                    }
-                    
-                    #tile_3_5 {
-                        background-image: url('../img/3_5.jpg');
-                        background-size: cover;
-                    }
-                    
-                    #tile_1_6 {
-                        background-image: url('../img/1_6.jpg');
-                        background-size: cover;
-                    }
-                    
-                    #tile_2_6 {
-                        background-image: url('../img/2_6.png');
-                        background-size: cover;
-                    }
-                    
-                    #tile_3_6 {
-                        background-image: url('../img/3_6.png');
-                        background-size: cover;
-                    }
-                    
-                    #tile_4_6 {
-                        background-image: url('../img/4_6.jpg');
-                        background-size: cover;
-                    }
-                    
-                    #tile_5_6 {
-                        background-image: url('../img/5_6.png');
-                        background-size: cover;
-                    }
-                    
-                    .evenBiggerBin {
-                        display: flex;
-                        flex-flow: column wrap;
-                        height: 100%;
-                        width: 1130px;
-                    }
-                    
-                    .bigBin {
-                        display: flex;
-                    }
-                    
-                    .topSection {
-                        display: inline-flex;
-                        width: 1130px;
-                        padding: 0px;
-                        margin-bottom: 1.5em;
-                        flex-flow: row wrap;
-                    }
-                    
-                    h1 {
-                        font-size: 2.3em;
-                        margin-bottom: .2em;
-                    }
-                    /*This holds all the matrix tiles, with the opague white background*/
-                    
-                    .matrixSpace {
-                        display: flex;
-                        background-color: rgba(255, 255, 255, 0.5);
-                        border-radius: 15px;
-                        min-width: 550px;
-                        max-height: 550px;
-                        padding-left: 10px;
-                        margin-right: 30px;
-                        padding-right: 10px;
-                    }
-                    
-                    .workSpace {
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: flex-start;
-                        min-width: 500px;
-                        background-color: rgba(255, 255, 255, 0.5);
-                        padding: 15px 15px 0px 15px;
-                        border-radius: 15px;
-                    }
-                    
-                    #reset {
-                        margin: 10px;
-                        padding: .5em;
-                        font-size: 1.5em;
-                        border: 0px;
-                        border-radius: 5px;
-                    }
-                    /*Containers are what create the columns*/
-                    
-                    .container {
-                        display: flex;
-                        flex-flow: column wrap;
-                    }
-                    /*The leftmost headers that describe each ROWs*/
-                    
-                    .rowTitleContainer {
-                        display: flex;
-                        flex-flow: column wrap;
-                        justify-content: space-around;
-                        align-items: flex-start;
-                        align-content: flex-start;
-                        max-width: 670px;
-                        max-height: 420px;
-                        margin-top: 30px;
-                    }
-                    /* Row and Col. Header Stylings */
-                    
-                    .rowTitle {
-                        font-size: 12px;
-                        padding: none;
-                        margin: none;
-                        width: 65px;
-                        height: 20px;
-                        text-align: right;
-                        font-weight: 800;
-                    }
-                    
-                    .colTitle {
-                        font-size: 12px;
-                        width: 60px;
-                        text-align: center;
-                        margin-left: 6.5px;
-                        margin-bottom: 0px;
-                        padding: none;
-                        font-weight: 800;
-                    }
-                    
-                    .rowTitle:hover,
-                    .colTitle:hover {
-                        text-decoration: underline;
-                        text-decoration-style: solid;
-                    }
-                    /* These are the individual tiles in the matrix*/
-                    
-                    .item {
-                        align-self: flex-start;
-                        border: none;
-                        width: 60px;
-                        height: 60px;
-                        margin: 10px;
-                        border-radius: 5px;
-                    }
-                    /* These are what keep the tiles in order and flowing nicely*/
-                    
-                    .imageConstraints {
-                        max-width: 402px;
-                        max-height: 450px;
-                    }
-                    
-                    .item:hover,
-                    .hvr-grow-shadow:focus,
-                    .hvr-grow-shadow:active {
-                        box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
-                        -webkit-transform: scale(1.1);
-                        transform: scale(1.1);
-                    }
-                    
-                    .hvr-grow-shadow {
-                        display: inline-block;
-                        vertical-align: middle;
-                        -webkit-transform: perspective(1px) translateZ(0);
-                        transform: perspective(1px) translateZ(0);
-                        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-                        -webkit-transition-duration: 0.3s;
-                        transition-duration: 0.3s;
-                        -webkit-transition-property: box-shadow, transform;
-                        transition-property: box-shadow, transform;
-                    }
-                    
-                    .content {
-                        max-height: 0;
-                        overflow: hidden;
-                        transition: max-height 0.2s ease-out;
-                        background-color: rgba(255, 255, 255, 0.5);
-                        width: 1050px;
-                        border-bottom-right-radius: 10px;
-                        border-bottom-left-radius: 10px;
-                    }
-                    /* Tooltip container that shows the black speech bubble when you hover over the titles of the colums and rows */
-                    
-                    .tooltip {
-                        position: relative;
-                        display: inline-block;
-                    }
-                    /* Tooltip text */
-                    
-                    .tooltip .tooltiptext {
-                        visibility: hidden;
-                        width: 120px;
-                        background-color: black;
-                        color: #fff;
-                        text-align: center;
-                        padding: 5px 0;
-                        border-radius: 6px;
-                        font-size: 12px;
-                        /* Position the tooltip text - see examples below! */
-                        position: absolute;
-                        z-index: 1;
-                        width: 120px;
-                        bottom: 100%;
-                        left: 50%;
-                        margin-left: -60px;
-                        /* Use half of the width (120/2 = 60), to center the tooltip */
-                    }
-                    
-                    .tooltip .tooltiptext::after {
-                        content: " ";
-                        position: absolute;
-                        top: 100%;
-                        /* At the bottom of the tooltip */
-                        left: 50%;
-                        margin-left: -5px;
-                        border-width: 5px;
-                        border-style: solid;
-                        border-color: black transparent transparent transparent;
-                    }
-                    /* Show the tooltip text when you mouse over the tooltip container */
-                    
-                    .tooltip:hover .tooltiptext {
-                        visibility: visible;
-                        /*
+
+                        #tile_2_1 {
+                            background-image: url('../img/2_1.jpg');
+                            background-size: cover;
+                        }
+
+                        #tile_1_1 {
+                            background-image: url('../img/1_1.png');
+                            background-size: cover;
+                        }
+
+                        #tile_5_2 {
+                            background-image: url('../img/5_2.jpg');
+                            background-size: cover;
+                        }
+
+                        #tile_5_1 {
+                            background-image: url('../img/5_1.png');
+                            background-size: cover;
+                        }
+
+                        #tile_5_3 {
+                            background-image: url('../img/5_3.jpg');
+                            background-size: cover;
+                        }
+
+                        #tile_5_4 {
+                            background-image: url('../img/5_4.jpg');
+                            background-size: cover;
+                        }
+
+                        #tile_5_5 {
+                            background-image: url('../img/5_5.jpg');
+                            background-size: cover;
+                        }
+
+                        #tile_4_2 {
+                            background-image: url('../img/4_2.png');
+                            background-size: cover;
+                        }
+
+                        #tile_1_2 {
+                            background-image: url('../img/1_2.png');
+                            background-size: cover;
+                        }
+
+                        #tile_1_3 {
+                            background-image: url('../img/1_3.jpg');
+                            background-size: cover;
+                        }
+
+                        #tile_1_4 {
+                            background-image: url('../img/1_4.png');
+                            background-size: cover;
+                        }
+
+                        #tile_4_3 {
+                            background-image: url('../img/4_3.png');
+                            background-size: cover;
+                        }
+
+                        #tile_2_2 {
+                            background-image: url('../img/2_2.png');
+                            background-size: cover;
+                        }
+
+                        #tile_2_3 {
+                            background-image: url('../img/2_3.png');
+                            background-size: cover;
+                        }
+
+                        #tile_2_4 {
+                            background-image: url('../img/2_4.jpg');
+                            background-size: cover;
+                        }
+
+                        #tile_4_5 {
+                            background-image: url('../img/4_5.jpeg');
+                            background-size: cover;
+                        }
+
+                        #tile_4_4 {
+                            background-image: url('../img/4_4.jpg');
+                            background-size: cover;
+                        }
+
+                        #tile_2_5 {
+                            background-image: url('../img/2_5.png');
+                            background-size: cover;
+                        }
+
+                        #tile_1_5 {
+                            background-image: url('../img/1_5.jpg');
+                            background-size: cover;
+                        }
+
+                        #tile_3_2 {
+                            background-image: url('../img/3.2.jpg');
+                            background-size: cover;
+                        }
+
+                        #tile_3_3 {
+                            background-image: url('../img/3_3.jpg');
+                            background-size: cover;
+                        }
+
+                        #tile_3_4 {
+                            background-image: url('../img/3_4.jpg');
+                            background-size: cover;
+                        }
+
+                        #tile_3_5 {
+                            background-image: url('../img/3_5.jpg');
+                            background-size: cover;
+                        }
+
+                        #tile_1_6 {
+                            background-image: url('../img/1_6.jpg');
+                            background-size: cover;
+                        }
+
+                        #tile_2_6 {
+                            background-image: url('../img/2_6.png');
+                            background-size: cover;
+                        }
+
+                        #tile_3_6 {
+                            background-image: url('../img/3_6.png');
+                            background-size: cover;
+                        }
+
+                        #tile_4_6 {
+                            background-image: url('../img/4_6.jpg');
+                            background-size: cover;
+                        }
+
+                        #tile_5_6 {
+                            background-image: url('../img/5_6.png');
+                            background-size: cover;
+                        }
+
+                        .evenBiggerBin {
+                            display: flex;
+                            flex-flow: column wrap;
+                            height: 100%;
+                            width: 1130px;
+                        }
+
+                        .bigBin {
+                            display: flex;
+                        }
+
+                        .topSection {
+                            display: inline-flex;
+                            width: 1130px;
+                            padding: 0px;
+                            margin-bottom: 1.5em;
+                            flex-flow: row wrap;
+                        }
+
+                        h1 {
+                            font-size: 2.3em;
+                            margin-bottom: .2em;
+                        }
+
+                        /*This holds all the matrix tiles, with the opague white background*/
+
+                        .matrixSpace {
+                            display: flex;
+                            background-color: rgba(255, 255, 255, 0.5);
+                            border-radius: 15px;
+                            min-width: 550px;
+                            max-height: 550px;
+                            padding-left: 10px;
+                            margin-right: 30px;
+                            padding-right: 10px;
+                        }
+
+                        .workSpace {
+                            /* Stack the h3 and section vertically */
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            min-width: 500px;
+                            background-color: rgba(255, 255, 255, 0.5);
+                            padding: 15px 15px 0px 15px;
+                            /* Include padding in the element's total width and height */
+                            border-radius: 15px;
+                            box-sizing: border-box;
+                        }
+
+                        .workSpaceHeader {
+                            /* Space between the title and the button */
+                            display: flex;
+                            /* Full width to contain the title and button */
+                            justify-content: space-between;
+                            width: 100%;
+                            /* Center items vertically */
+                            align-items: center;
+                            /* Space between header and content boxes */
+                            margin-bottom: 10px;
+                        }
+
+                        /* Space between the content boxes, full width to contain both content boxes */
+                        .workSpaceContent {
+                            display: flex;
+                            justify-content: space-between;
+                            width: 100%;
+                            /* Allows the container to expand to fill the parent */
+                            flex: 1;
+                        }
+
+                        /* Approximately half width, accounting for the space-between, border as shown in the drawing, include padding and border in the element's total width */
+                        .contentBox {
+                            margin: .8%;
+                            width: 48%;
+                            height: 90%;
+                            border: 1px solid red;
+                            padding: 10px;
+                            box-sizing: border-box;
+                            /* This will make the box grow to fill the container */
+                            flex: 1;
+                            /* Optional: the contentBox to also dictate the height of the workspace */
+                            /* min-height: 100%; */
+                        }
+
+                        #reset {
+                            margin: 10px;
+                            padding: .5em;
+                            font-size: 1.5em;
+                            border: 0px;
+                            border-radius: 5px;
+                        }
+
+                        /*Containers are what create the columns*/
+
+                        .container {
+                            display: flex;
+                            flex-flow: column wrap;
+                        }
+
+                        /*The leftmost headers that describe each ROWs*/
+
+                        .rowTitleContainer {
+                            display: flex;
+                            flex-flow: column wrap;
+                            justify-content: space-around;
+                            align-items: flex-start;
+                            align-content: flex-start;
+                            max-width: 670px;
+                            max-height: 420px;
+                            margin-top: 30px;
+                        }
+
+                        /* Row and Col. Header Stylings */
+
+                        .rowTitle {
+                            font-size: 12px;
+                            padding: none;
+                            margin: none;
+                            width: 65px;
+                            height: 20px;
+                            text-align: right;
+                            font-weight: 800;
+                        }
+
+                        .colTitle {
+                            font-size: 12px;
+                            width: 60px;
+                            text-align: center;
+                            margin-left: 6.5px;
+                            margin-bottom: 0px;
+                            padding: none;
+                            font-weight: 800;
+                        }
+
+                        .rowTitle:hover,
+                        .colTitle:hover {
+                            text-decoration: underline;
+                            text-decoration-style: solid;
+                        }
+
+
+                        /* Modal Stylings */
+
+                        .modal {
+                            /* Stay in place */
+                            position: fixed;
+                            /* Sit on top */
+                            z-index: 1;
+                            /* Sit on top */
+                            left: 0;
+                            top: 0;
+                            /* Full width */
+                            width: 100%;
+                            /* Full height */
+                            height: 100%;
+                            /* Enable scroll if needed */
+                            overflow: auto;
+                            /* Fallback color */
+                            background-color: rgb(0, 0, 0);
+                            /* Black w/ opacity */
+                            background-color: rgba(0, 0, 0, 0.4);
+
+                        }
+
+
+                        /* Modal Content */
+                        .modal-content {
+                            background-color: #fefefe;
+                            margin: 8.5% auto;
+                            padding: 20px;
+                            border-radius: 15px;
+                            width: 80%;
+                            height: auto;
+                            text-align: center;
+                        }
+
+
+                        /* The Close Button */
+                        .close {
+                            color: #aaa;
+                            float: right;
+                            font-size: 28px;
+                            font-weight: bold;
+                        }
+
+                        .close:hover,
+                        .close:focus {
+                            color: black;
+                            text-decoration: none;
+                            cursor: pointer;
+                        }
+
+
+                        #modalImage {
+                            max-height: 65vh;
+                            max-width: 100%;
+                        }
+
+                        /* These are the individual tiles in the matrix*/
+
+                        .item {
+                            align-self: flex-start;
+                            border: none;
+                            width: 60px;
+                            height: 60px;
+                            margin: 10px;
+                            border-radius: 5px;
+                        }
+
+                        /* These are what keep the tiles in order and flowing nicely*/
+
+                        .imageConstraints {
+                            max-width: 402px;
+                            max-height: 450px;
+                        }
+
+                        .item:hover,
+                        .hvr-grow-shadow:focus,
+                        .hvr-grow-shadow:active {
+                            box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+                            -webkit-transform: scale(1.1);
+                            transform: scale(1.1);
+                        }
+
+                        .hvr-grow-shadow {
+                            display: inline-block;
+                            vertical-align: middle;
+                            -webkit-transform: perspective(1px) translateZ(0);
+                            transform: perspective(1px) translateZ(0);
+                            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+                            -webkit-transition-duration: 0.3s;
+                            transition-duration: 0.3s;
+                            -webkit-transition-property: box-shadow, transform;
+                            transition-property: box-shadow, transform;
+                        }
+
+                        .content {
+                            max-height: 0;
+                            overflow: hidden;
+                            transition: max-height 0.2s ease-out;
+                            background-color: rgba(255, 255, 255, 0.5);
+                            width: 1050px;
+                            border-bottom-right-radius: 10px;
+                            border-bottom-left-radius: 10px;
+                        }
+
+                        /* Tooltip container that shows the black speech bubble when you hover over the titles of the colums and rows */
+
+                        .tooltip {
+                            position: relative;
+                            display: inline-block;
+                        }
+
+                        /* Tooltip text */
+
+                        .tooltip .tooltiptext {
+                            visibility: hidden;
+                            width: 120px;
+                            background-color: black;
+                            color: #fff;
+                            text-align: center;
+                            padding: 5px 0;
+                            border-radius: 6px;
+                            font-size: 12px;
+                            /* Position the tooltip text - see examples below! */
+                            position: absolute;
+                            z-index: 1;
+                            width: 120px;
+                            bottom: 100%;
+                            left: 50%;
+                            margin-left: -60px;
+                            /* Use half of the width (120/2 = 60), to center the tooltip */
+                        }
+
+                        .tooltip .tooltiptext::after {
+                            content: " ";
+                            position: absolute;
+                            top: 100%;
+                            /* At the bottom of the tooltip */
+                            left: 50%;
+                            margin-left: -5px;
+                            border-width: 5px;
+                            border-style: solid;
+                            border-color: black transparent transparent transparent;
+                        }
+
+                        /* Show the tooltip text when you mouse over the tooltip container */
+
+                        .tooltip:hover .tooltiptext {
+                            visibility: visible;
+
+                            /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
  *
@@ -421,66 +534,73 @@
  *
  * Customize the background color to match your design.
  */
-                        ::-moz-selection {
-                            background: #b3d4fc;
-                            text-shadow: none;
-                        }
-                        ::selection {
-                            background: #b3d4fc;
-                            text-shadow: none;
-                        }
-                        /*
+                            ::-moz-selection {
+                                background: #b3d4fc;
+                                text-shadow: none;
+                            }
+
+                            ::selection {
+                                background: #b3d4fc;
+                                text-shadow: none;
+                            }
+
+                            /*
  * A better looking default horizontal rule
  */
-                        hr {
-                            display: block;
-                            height: 1px;
-                            border: 0;
-                            border-top: 1px solid #ccc;
-                            margin: 1em 0;
-                            padding: 0;
-                        }
-                        /*
+                            hr {
+                                display: block;
+                                height: 1px;
+                                border: 0;
+                                border-top: 1px solid #ccc;
+                                margin: 1em 0;
+                                padding: 0;
+                            }
+
+                            /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
-                        audio,
-                        canvas,
-                        iframe,
-                        img,
-                        svg,
-                        video {
-                            vertical-align: middle;
-                        }
-                        /*
+                            audio,
+                            canvas,
+                            iframe,
+                            img,
+                            svg,
+                            video {
+                                vertical-align: middle;
+                            }
+
+                            /*
  * Remove default fieldset styles.
  */
-                        fieldset {
-                            border: 0;
-                            margin: 0;
-                            padding: 0;
-                        }
-                        /*
+                            fieldset {
+                                border: 0;
+                                margin: 0;
+                                padding: 0;
+                            }
+
+                            /*
  * Allow only vertical resizing of textareas.
  */
-                        textarea {
-                            resize: vertical;
-                        }
-                        /* ==========================================================================
+                            textarea {
+                                resize: vertical;
+                            }
+
+                            /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-                        /* ==========================================================================
+                            /* ==========================================================================
    Helper classes
    ========================================================================== */
-                        /*
+                            /*
  * Hide visually and from screen readers
  */
-                        .hidden,
-                        [hidden] {
-                            display: none !important;
-                        }
-                        /*
+                            .hidden,
+                            [hidden] {
+                                display: none !important;
+                            }
+
+                            /*
  * Hide only visually, but have it available for screen readers:
  * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  *
@@ -488,40 +608,43 @@
  *    causes content to wrap 1 word per line:
  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
-                        .sr-only {
-                            border: 0;
-                            clip: rect(0, 0, 0, 0);
-                            height: 1px;
-                            margin: -1px;
-                            overflow: hidden;
-                            padding: 0;
-                            position: absolute;
-                            white-space: nowrap;
-                            width: 1px;
-                            /* 1 */
-                        }
-                        /*
+                            .sr-only {
+                                border: 0;
+                                clip: rect(0, 0, 0, 0);
+                                height: 1px;
+                                margin: -1px;
+                                overflow: hidden;
+                                padding: 0;
+                                position: absolute;
+                                white-space: nowrap;
+                                width: 1px;
+                                /* 1 */
+                            }
+
+                            /*
  * Extends the .sr-only class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
-                        .sr-only.focusable:active,
-                        .sr-only.focusable:focus {
-                            clip: auto;
-                            height: auto;
-                            margin: 0;
-                            overflow: visible;
-                            position: static;
-                            white-space: inherit;
-                            width: auto;
-                        }
-                        /*
+                            .sr-only.focusable:active,
+                            .sr-only.focusable:focus {
+                                clip: auto;
+                                height: auto;
+                                margin: 0;
+                                overflow: visible;
+                                position: static;
+                                white-space: inherit;
+                                width: auto;
+                            }
+
+                            /*
  * Hide visually and from screen readers, but maintain layout
  */
-                        .invisible {
-                            visibility: hidden;
-                        }
-                        /*
+                            .invisible {
+                                visibility: hidden;
+                            }
+
+                            /*
  * Clearfix: contain floats
  *
  * For modern browsers
@@ -532,89 +655,104 @@
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-                        .clearfix::before,
-                        .clearfix::after {
-                            content: " ";
-                            display: table;
-                        }
-                        .clearfix::after {
-                            clear: both;
-                        }
-                        /* ==========================================================================
+                            .clearfix::before,
+                            .clearfix::after {
+                                content: " ";
+                                display: table;
+                            }
+
+                            .clearfix::after {
+                                clear: both;
+                            }
+
+                            /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-                        @media only screen and (min-width: 35em) {
-                            /* Style adjustments for viewports that meet the condition */
-                        }
-                        @media print,
-                        (-webkit-min-device-pixel-ratio: 1.25),
-                        (min-resolution: 1.25dppx),
-                        (min-resolution: 120dpi) {
-                            /* Style adjustments for high resolution devices */
-                        }
-                        /* ==========================================================================
+                            @media only screen and (min-width: 35em) {
+                                /* Style adjustments for viewports that meet the condition */
+                            }
+
+                            @media print,
+                            (-webkit-min-device-pixel-ratio: 1.25),
+                            (min-resolution: 1.25dppx),
+                            (min-resolution: 120dpi) {
+                                /* Style adjustments for high resolution devices */
+                            }
+
+                            /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
-                        @media print {
-                            *,
-                            *::before,
-                            *::after {
-                                background: #fff !important;
-                                color: #000 !important;
-                                /* Black prints faster */
-                                box-shadow: none !important;
-                                text-shadow: none !important;
-                            }
-                            a,
-                            a:visited {
-                                text-decoration: underline;
-                            }
-                            a[href]::after {
-                                content: " (" attr(href) ")";
-                            }
-                            abbr[title]::after {
-                                content: " (" attr(title) ")";
-                            }
-                            /*
+                            @media print {
+
+                                *,
+                                *::before,
+                                *::after {
+                                    background: #fff !important;
+                                    color: #000 !important;
+                                    /* Black prints faster */
+                                    box-shadow: none !important;
+                                    text-shadow: none !important;
+                                }
+
+                                a,
+                                a:visited {
+                                    text-decoration: underline;
+                                }
+
+                                a[href]::after {
+                                    content: " (" attr(href) ")";
+                                }
+
+                                abbr[title]::after {
+                                    content: " (" attr(title) ")";
+                                }
+
+                                /*
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
    */
-                            a[href^="#"]::after,
-                            a[href^="javascript:"]::after {
-                                content: "";
-                            }
-                            pre {
-                                white-space: pre-wrap !important;
-                            }
-                            pre,
-                            blockquote {
-                                border: 1px solid #999;
-                                page-break-inside: avoid;
-                            }
-                            /*
+                                a[href^="#"]::after,
+                                a[href^="javascript:"]::after {
+                                    content: "";
+                                }
+
+                                pre {
+                                    white-space: pre-wrap !important;
+                                }
+
+                                pre,
+                                blockquote {
+                                    border: 1px solid #999;
+                                    page-break-inside: avoid;
+                                }
+
+                                /*
    * Printing Tables:
    * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
    */
-                            thead {
-                                display: table-header-group;
-                            }
-                            tr,
-                            img {
-                                page-break-inside: avoid;
-                            }
-                            p,
-                            h2,
-                            h3 {
-                                orphans: 3;
-                                widows: 3;
-                            }
-                            h2,
-                            h3 {
-                                page-break-after: avoid;
+                                thead {
+                                    display: table-header-group;
+                                }
+
+                                tr,
+                                img {
+                                    page-break-inside: avoid;
+                                }
+
+                                p,
+                                h2,
+                                h3 {
+                                    orphans: 3;
+                                    widows: 3;
+                                }
+
+                                h2,
+                                h3 {
+                                    page-break-after: avoid;
+                                }
                             }
                         }
-                    }

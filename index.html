@@ -1,14 +1,15 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 
 <head>
     <meta charset="utf-8">
     <title>Black Women & Girls Cottagecore - Synthesis Map</title>
-    <meta name="description" content="">
+    <meta name="description"
+        content="Synthesis Map - A brainstorming tool created for a class project on the topic of black women and girls within the cottagecore subculture/aesthetic.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="">
-    <meta property="og:type" content="">
-    <meta property="og:url" content="">
+    <meta property="og:title" content="Synthesis Map - a brainstorming tool">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aekari.github.io/Synthesis-Map/">
     <meta property="og:image" content="">
     <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png">
@@ -19,72 +20,86 @@
     <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet"> </head>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
 
 <body class="body">
     <div class="evenBiggerBin">
         <div class="topSection">
-            <h1 class="boldOfYouToAsk">Black Girls & Cottagecore - Synthesis Map</h1>
-            <h3 class="instructions"> Drag matrix tiles from the left into the workspace on the right. To reset the tiles, click the reset button. <br>On a Mac, zoom in or out by holding down the command key and + or - key. To reset the tiles, click the refresh button.</h3> </div>
+            <h1 class="boldStyling">Black Girls & Cottagecore - Synthesis Map</h1>
+            <h3 class="instructions"> Drag tiles from the matrix on the left into the workspace on the right. <br>Click
+                once to zoom in on a tile.</h3>
+        </div>
         <div class="bigBin">
             <div class="matrixSpace">
                 <!-- Titles for ROWS -->
                 <div class=rowTitleContainer>
                     <div class="tooltip">
-                        <h3 class="rowTitle">Private</h3> <span class="tooltiptext">slice of life</span> </div>
+                        <h3 class="rowTitle">Private</h3> <span class="tooltiptext">slice of life</span>
+                    </div>
                     <div class="tooltip">
-                        <h3 class="rowTitle">Public</h3> <span class="tooltiptext">communal</span> </div>
+                        <h3 class="rowTitle">Public</h3> <span class="tooltiptext">communal</span>
+                    </div>
                     <div class="tooltip">
-                        <h3 class="rowTitle">Institutional</h3> <span class="tooltiptext">academia, trad. art/lit</span> </div>
+                        <h3 class="rowTitle">Institutional</h3> <span class="tooltiptext">academia, trad. art/lit</span>
+                    </div>
                     <div class="tooltip">
-                        <h3 class="rowTitle">Commercial</h3> <span class="tooltiptext">on brand</span> </div>
+                        <h3 class="rowTitle">Commercial</h3> <span class="tooltiptext">on brand</span>
+                    </div>
                     <div class="tooltip">
-                        <h3 class="rowTitle">Global</h3> <span class="tooltiptext">ideologies</span> </div>
+                        <h3 class="rowTitle">Global</h3> <span class="tooltiptext">ideologies</span>
+                    </div>
                 </div>
                 <div class="container imageConstraints">
-                    <!-- Column 1 -->
+                    <!-- Column 1: Objective -->
                     <div class="tooltip">
-                        <h3 class="colTitle">Objective</h3> <span class="tooltiptext">unbiased</span></div>
+                        <h3 class="colTitle">Objective</h3> <span class="tooltiptext">unbiased</span>
+                    </div>
                     <section class="item row1 col1" id="tile_1_1" title="Objective/Private"></section>
                     <section class="item row2 col1" id="tile_2_1" title="Objective/Public"></section>
                     <section class="item row3 col1" id="tile_3_1" title="Objective/Institutional"></section>
                     <section class="item row4 col1" id="tile_4_1" title="Objective/Commercial"></section>
                     <section class="item row5 col1" id="tile_5_1" title="Objective/Global"></section>
-                    <!-- Column 2 -->
+                    <!-- Column 2: Analytical -->
                     <div class="tooltip">
-                        <h3 class="colTitle">Analytical</h3> <span class="tooltiptext">dissected</span> </div>
+                        <h3 class="colTitle">Analytical</h3> <span class="tooltiptext">dissected</span>
+                    </div>
                     <section class="item row col2" id="tile_1_2" title="Analytical/Private"></section>
                     <section class="item row2 col2" id="tile_2_2" title="Analytical/Public"></section>
                     <section class="item row3 col2" id="tile_3_2" title="Analytical/Institutional"></section>
                     <section class="item row4 col2" id="tile_4_2" title="Analytical/Commercial"></section>
                     <section class="item row5 col2" id="tile_5_2" title="Analytical/Global"></section>
-                    <!-- Column 3 -->
+                    <!-- Column 3: Stereotypical -->
                     <div class="tooltip">
-                        <h3 class="colTitle">Stereotypical</h3> <span class="tooltiptext">heightened</span> </div>
+                        <h3 class="colTitle">Stereotypical</h3> <span class="tooltiptext">heightened</span>
+                    </div>
                     <section class="item row1 col3" id="tile_1_3" title="Stereotypical/Private"></section>
                     <section class="item row2 col3" id="tile_2_3" title="Stereotypical/Public"></section>
                     <section class="item row3 col3" id="tile_3_3" title="Stereotypical/Institutional"></section>
                     <section class="item row4 col3" id="tile_4_3" title="Stereotypical/Commercial"></section>
                     <section class="item row5 col3" id="tile_5_3" title="Stereotypical/Global"></section>
-                    <!-- Column 4 -->
+                    <!-- Column 4: Idealized -->
                     <div class="tooltip">
-                        <h3 class="colTitle">Idealized</h3> <span class="tooltiptext">perfected</span> </div>
+                        <h3 class="colTitle">Idealized</h3> <span class="tooltiptext">perfected</span>
+                    </div>
                     <section class="item row1 col4" id="tile_1_4" title="Idealized/Private"></section>
                     <section class="item row2 col4" id="tile_2_4" title="Idealized/Public"></section>
                     <section class="item row3 col4" id="tile_3_4" title="Idealized/Institutional"></section>
                     <section class="item row4 col4" id="tile_4_4" title="Idealized/Commercial"></section>
                     <section class="item row5 col4" id="tile_5_4" title="Idealized/Global"></section>
-                    <!-- Column 5 -->
+                    <!-- Column 5: Allegorical -->
                     <div class="tooltip">
-                        <h3 class="colTitle">Allegorical</h3> <span class="tooltiptext">symbolic</span> </div>
+                        <h3 class="colTitle">Allegorical</h3> <span class="tooltiptext">symbolic</span>
+                    </div>
                     <section class="item row1 col5" id="tile_1_5" title="Allegorical/Private"></section>
                     <section class="item row2 col5" id="tile_2_5" title="Allegorical/Public"></section>
                     <section class="item row3 col5" id="tile_3_5" title="Allegorical/Institutional"></section>
                     <section class="item row4 col5" id="tile_4_5" title="Allegorical/Commercial"></section>
                     <section class="item row5 col5" id="tile_5_5" title="Allegorical/Global"></section>
-                    <!-- Column 6 -->
+                    <!-- Column 6: Personal -->
                     <div class="tooltip">
-                        <h3 class="colTitle">Personal</h3> <span class="tooltiptext">unobjective</span> </div>
+                        <h3 class="colTitle">Personal</h3> <span class="tooltiptext">unobjective</span>
+                    </div>
                     <section class="item row1 col6" id="tile_1_6" title="Personal/Private"></section>
                     <section class="item row2 col6" id="tile_2_6" title="Personal/Public"></section>
                     <section class="item row3 col6" id="tile_3_6" title="Personal/Institutional"></section>
@@ -92,24 +107,87 @@
                     <section class="item row5 col6" id="tile_5_6" title="Personal/Global"></section>
                 </div>
             </div>
+            <!-- Workspace container with a column flex layout -->
             <div class="workSpace">
-                <h3>A + B Synthesis Workspace<span id="populatedTitle"></span></h3>
-                <button id="reset" onclick="reloadPage();">&#8634;</button>
+                <!-- Workspace header containing title and reset button -->
+                <div class="workSpaceHeader">
+                    <h3>A + B Synthesis Workspace</h3>
+                    <!-- Reset button to trigger the resetItems function -->
+                    <button id="reset" onclick="resetItems();">&#8634;</button>
+                </div>
+                <!-- Workspace content area for 'hey' and 'yo' boxes -->
+                <div class="workSpaceContent">
+                    <!-- Content box for 'hey' -->
+                    <div class="contentBox">
+                        hey
+                    </div>
+                    <!-- Content box for 'yo' -->
+                    <div class="contentBox">
+                        yo
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Modal content -->
+            <div id="myModal" class="modal" style="display:none;">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <!-- The src attribute will be set by jQuery when an item is clicked -->
+                    <span class="modal-img"><img id="modalImage" src="" alt="Item Image"></span>
+                </div>
             </div>
         </div>
-        <!-- JS and JQuery stuff below -->
+        <!-- JS and JQuery code below -->
         <script src="js/vendor/modernizr-3.11.2.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
+        <!--Click & Drag-->
         <script>
-            $(".item").draggable();
-            $(".item").draggable('enable');
             $(document).ready(function () {
-                $("#reset").click(function () {
-                    location.reload(true);
+                $(".item").draggable();
+
+                $('#reset').click(function () {
+                    // Reset each .item to its original position
+                    $(".item").css({
+                        'left': '',
+                        'top': ''
+                    });
+                });
+
+                $('.item').click(function () {
+                    // Get the computed style of the clicked item
+                    var style = window.getComputedStyle(this);
+
+                    // Extract the background-image value
+                    var backgroundImage = style.getPropertyValue('background-image');
+
+                    // Extract the URL from the background-image CSS property
+                    var imageUrl = backgroundImage.slice(5, -2); // Removes 'url("' at the start and '")' at the end
+
+                    // Set the image in the modal
+                    $('#modalImage').attr('src', imageUrl);
+
+                    // Show the modal
+                    $('#myModal').show();
+                });
+
+                // When the user clicks on <span> (x), close the modal
+                $('.close').click(function () {
+                    $('#myModal').hide();
+                });
+
+                // When the user clicks anywhere outside of the modal, close it
+                $(window).click(function (event) {
+                    let modal = $('#myModal');
+                    if (event.target === modal.get(0)) {
+                        modal.hide();
+                    }
                 });
             });
         </script>
     </div>
 </body>
+
 </html>
