@@ -17,7 +17,7 @@ A brainstorming tool created for a class project on the topic of black women and
 ## Known Bugs
 
 1. The Map is best used on a desktop and is not responsive/mobile friendly.
-2. The images are small without an option to view them larger besides zooming in.
+2. ~~The images are small without an option to view them larger besides zooming in.~~ Solved 11/6/23
 3. No interface option to easily update the photos in the grid without going into the code and doing it manually.
 
 ## License
