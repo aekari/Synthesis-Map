@@ -309,7 +309,7 @@
                             margin: .8%;
                             width: 48%;
                             height: 90%;
-                            border: 1px solid red;
+                            /* border: 1px solid red; */
                             padding: 10px;
                             box-sizing: border-box;
                             /* This will make the box grow to fill the container */
